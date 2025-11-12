@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vudutha Bhavanya — Achievers Club</title>
+  <meta name="description" content="Mentorship, growth and personal development guidance by Vudutha Bhavanya." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .hero-bg { background-image: linear-gradient(135deg, rgba(14,165,233,.08), rgba(168,85,247,.06)); }
+    .glass { backdrop-filter: blur(6px); background: rgba(255,255,255,.6); }
+  </style>
+</head>
+<body class="antialiased text-slate-800">
+
+  <!-- NAV -->
+  <header class="w-full shadow-sm bg-white/70 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-md bg-gradient-to-br from-indigo-600 to-cyan-400 flex items-center justify-center text-white font-bold">VB</div>
+        <div>
+          <h1 class="text-lg font-semibold">Achievers Club</h1>
+          <p class="text-xs text-slate-500 -mt-1">Mentorship • Growth • Vision</p>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-6">
+        <a href="#about" class="text-sm hover:underline">About</a>
+        <a href="#programs" class="text-sm hover:underline">Programs</a>
+        <a href="#testimonials" class="text-sm hover:underline">Testimonials</a>
+        <a href="#contact" class="text-sm hover:underline">Contact</a>
+        <a href="#contact" class="ml-2 inline-block px-4 py-2 rounded-md bg-indigo-600 text-white text-sm">Join Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero-bg pt-12 pb-20">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
+      <div class="md:w-1/2">
+        <h2 class="text-3xl md:text-5xl font-extrabold leading-tight">
+          Turning ideas into action — with <br> <span class="text-indigo-600">VUDUTHA BHAVANYA</span>
+        </h2>
+        <p class="mt-4 text-slate-600">
+          Guiding students and young creators to achieve clarity, confidence, and measurable growth through structured mentoring and personal development.
+        </p>
+        <div class="mt-6 flex gap-3">
+          <a href="#contact" class="px-5 py-3 rounded-md bg-indigo-600 text-white font-medium">Get Started</a>
+          <a href="#programs" class="px-5 py-3 rounded-md border border-slate-200">See Programs</a>
+        </div>
+
+        <div class="mt-8 grid grid-cols-3 gap-4">
+          <div class="p-3 bg-white rounded-lg shadow-sm glass text-center">
+            <div class="text-xl font-bold">₹0 → ₹2L+</div>
+            <div class="text-xs text-slate-500 mt-1">Success journeys</div>
+          </div>
+          <div class="p-3 bg-white rounded-lg shadow-sm glass text-center">
+            <div class="text-xl font-bold">150+</div>
+            <div class="text-xs text-slate-500 mt-1">Active learners</div>
+          </div>
+          <div class="p-3 bg-white rounded-lg shadow-sm glass text-center">
+            <div class="text-xl font-bold">8 weeks</div>
+            <div class="text-xs text-slate-500 mt-1">Avg. transformation</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="md:w-1/2 flex justify-center">
+        <div class="w-full max-w-md bg-white rounded-2xl shadow-2xl p-6">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1400&auto=format&fit=crop&crop=faces" alt="mentor" class="w-full rounded-xl">
+          <div class="mt-4">
+            <h3 class="font-semibold">Vudutha Bhavanya</h3>
+            <p class="text-xs text-slate-500 mt-1">Mentor • Growth Guide • Learner</p>
+            <p class="text-sm mt-3">Helping students and creators build clarity, structure, and focus to achieve success faster.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-16">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h3 class="text-2xl font-bold">About Bhavanya</h3>
+        <p class="mt-3 text-slate-600">
+          Hi, I’m <b>Vudutha Bhavanya</b> — passionate about mentorship, self-improvement, and helping young minds reach their goals through discipline and mindset. 
+          My goal is to simplify learning and career growth into clear, achievable steps that anyone can follow.
+        </p>
+        <ul class="mt-4 space-y-2 text-sm text-slate-600">
+          <li>• 1-on-1 mentorship and personal guidance</li>
+          <li>• Weekly growth tracking and accountability</li>
+          <li>• Project-based learning and mindset development</li>
+        </ul>
+      </div>
+      <div class="space-y-4">
+        <div class="p-5 bg-white rounded-xl shadow">
+          <h4 class="font-semibold">Personalized Roadmaps</h4>
+          <p class="text-sm text-slate-500 mt-2">Actionable guidance tailored to your goals and timeline.</p>
+        </div>
+        <div class="p-5 bg-white rounded-xl shadow">
+          <h4 class="font-semibold">Accountability Support</h4>
+          <p class="text-sm text-slate-500 mt-2">Consistent check-ins to keep you motivated and on track.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section id="programs" class="py-12 bg-slate-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-2xl font-bold">Programs</h3>
+      <p class="text-slate-600 mt-2">Select a program that fits your learning path and goals.</p>
+
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div class="p-6 bg-white rounded-lg shadow">
+          <h4 class="font-semibold">Growth Mentorship</h4>
+          <p class="text-sm text-slate-500 mt-2">One-on-one sessions focused on confidence, goal setting, and consistent progress.</p>
+          <div class="mt-4 flex items-center justify-between">
+            <div class="text-sm font-bold">₹499/session</div>
+            <a href="https://rzp.io/rzp/fslM5FK" target="_blank" class="text-sm underline text-indigo-600">Join Now</a>
+          </div>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow">
+          <h4 class="font-semibold">Creator Launchpad</h4>
+          <p class="text-sm text-slate-500 mt-2">From idea to impact: build your online presence with structure and consistency.</p>
+          <div class="mt-4 flex items-center justify-between">
+            <div class="text-sm font-bold">₹999/month</div>
+            <a href="https://rzp.io/rzp/fslM5FK" target="_blank" class="text-sm underline text-indigo-600">Join Now</a>
+          </div>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow">
+          <h4 class="font-semibold">Mindset & Motivation</h4>
+          <p class="text-sm text-slate-500 mt-2">Weekly mindset sessions to help you stay positive, focused, and inspired.</p>
+          <div class="mt-4 flex items-center justify-between">
+            <div class="text-sm font-bold">₹4999 (one-time)</div>
+            <a href="https://rzp.io/rzp/fslM5FK" target="_blank" class="text-sm underline text-indigo-600">Join Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="py-12">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-2xl font-bold text-center mb-6">What Our Members Say</h3>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+
+        <!-- VUDUTHA -->
+        <blockquote class="p-6 bg-white rounded-lg shadow text-center">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1400&auto=format&fit=crop&crop=faces"
+               alt="Vudutha Bhavanya"
+               class="w-20 h-20 rounded-full mx-auto mb-3 border-4 border-yellow-400 object-cover">
+          <p class="text-slate-600 italic">
+            “My mission is to help students find clarity, structure, and direction — Achievers Club is built to make growth simple and focused.”
+          </p>
+          <footer class="mt-3 text-sm font-semibold text-yellow-500">— Vudutha Bhavanya</footer>
+        </blockquote>
+
+        <!-- SAI -->
+        <blockquote class="p-6 bg-white rounded-lg shadow text-center">
+          <img src="https://via.placeholder.com/80" 
+               alt="Sai Nakkina"
+               class="w-20 h-20 rounded-full mx-auto mb-3 border-4 border-yellow-400 object-cover">
+          <p class="text-slate-600 italic">
+            “The network here is absolutely insane. I connected with key collaborators and landed major clients in my first week.”
+          </p>
+          <footer class="mt-3 text-sm font-semibold text-yellow-500">— Sai Nakkina</footer>
+        </blockquote>
+
+        <!-- UJJWAL -->
+        <blockquote class="p-6 bg-white rounded-lg shadow text-center">
+          <img src="https://via.placeholder.com/80" 
+               alt="Ujjwal Doppalapudi"
+               class="w-20 h-20 rounded-full mx-auto mb-3 border-4 border-yellow-400 object-cover">
+          <p class="text-slate-600 italic">
+            “From struggling to make ends meet to consistently earning ₹2L/month as a digital creator – this community’s guidance was invaluable.”
+          </p>
+          <footer class="mt-3 text-sm font-semibold text-yellow-500">— Ujjwal Doppalapudi</footer>
+        </blockquote>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-12 bg-indigo-50">
+    <div class="max-w-4xl mx-auto px-6 grid md:grid-cols-2 gap-6 items-center">
+      <div>
+        <h3 class="text-2xl font-bold">Get in Touch</h3>
+        <ul class="mt-4 text-sm text-slate-600 space-y-2">
+          <li>📧 <b>Email:</b> <a href="mailto:vuduthabhavanya@gmail.com" class="underline text-indigo-600">vuduthabhavanya@gmail.com</a></li>
+          <li>📞 <b>Phone:</b> <a href="tel:9059862068" class="underline text-indigo-600">9059862068</a></li>
+          <li>📸 <b>Instagram:</b> <a href="https://www.instagram.com/_.bhavanya.__?igsh=YmdrOWh2cW90YXN2" target="_blank" class="underline text-indigo-600">@_.bhavanya.__</a></li>
+          <li>💼 <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/vudutha-bhavanya-48b81b343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="underline text-indigo-600">Vudutha Bhavanya</a></li>
+        </ul>
+      </div>
+      <div class="p-6 bg-white rounded-lg shadow">
+        <h4 class="font-semibold mb-2">Quick Message</h4>
+        <form action="https://formspree.io/f/mwkgjqzb" method="POST">
+          <input type="text" name="name" placeholder="Your Name" class="w-full mb-3 border rounded-md px-3 py-2" required>
+          <input type="email" name="email" placeholder="Your Email" class="w-full mb-3 border rounded-md px-3 py-2" required>
+          <textarea name="message" rows="3" placeholder="Your Message" class="w-full mb-3 border rounded-md px-3 py-2"></textarea>
+          <button type="submit" class="w-full py-2 rounded-md bg-indigo-600 text-white font-semibold">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-8 bg-white border-t">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div class="text-sm text-slate-600">© <span id="year"></span> Vudutha Bhavanya — All Rights Reserved</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
